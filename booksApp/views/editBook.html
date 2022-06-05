@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Book</title>
+</head>
+<body>
+    <form action="/edited" method="post">
+        <p>ISBN cant be changed If ISBN dont match a new book will be added</p>
+        <input type="text" name="bookName" placeholder="Book Name"  required> <br>
+        <input type="number" name="price" placeholder="Price" required> <br>
+        <input type="text" name="isbn" placeholder="isbn" required> <br>
+        <input type="text" name="authorName" placeholder="Author Name" required> <br>
+        <input type="text" name="publisherName" placeholder="Publisher Name" required> <br>
+        <input type="text" name="publishedDate" placeholder="Published Date" required> <br>
+        <input type="text" name="version" placeholder="Version" required> <br>
+        <input type="submit"  name="submit">
+    </form>
+</body>
+</html>

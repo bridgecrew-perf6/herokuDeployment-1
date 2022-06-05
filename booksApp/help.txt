@@ -1,0 +1,10 @@
+add Book : '/addBook'
+editBook : '/editBook'
+deleteBook : '/deleteBook/:isbn' 
+getBook:
+    '/books' to display all the books 
+    '/book/:isbn' to display specific book
+
+Note : All above processes update temporary  variable called 'books' original data remains unchanged
+
+    

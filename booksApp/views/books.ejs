@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+</head>
+<body>
+    <table>
+        <% if(books){%>
+           <% for(var i = 0; i < books.length; i++) {%>
+               <tr><h2> Book Name: <%= books[i].bookName %> </h2> </tr>
+                <tr><p> Price: <%= books[i].price %> </p> </tr>
+                <tr><p> ISBN: <%= books[i].isbn %> </p> </tr>
+                <tr><p> Author: <%= books[i].authorName %> </p> </tr>
+                <tr><p> Publisher: <%= books[i].publisherName %> </p> </tr>
+                <tr><p> Edition: <%= books[i].version %> </p> </tr>
+                <% } %>
+            <% } %>
+    </table>
+</body>
+</html>
