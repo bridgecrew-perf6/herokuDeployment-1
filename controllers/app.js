@@ -9,3 +9,4 @@ var PORT = process.env.PORT || 8080
 app.use(viewBooksRoute, editBookRoute, deleteBookRoute, addBookRoute)
 
 app.listen(PORT)
+console.log(`App listening on port ${PORT}`)

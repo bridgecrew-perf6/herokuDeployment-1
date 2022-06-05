@@ -7,5 +7,5 @@
     "path": "^0.12.7"
   },
   "scripts": {
-    "start": "controllers/app.js"}
+    "start": "node controllers/app.js"}
 }
